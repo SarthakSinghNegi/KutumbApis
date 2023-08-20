@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Kutumb Assignment">
+    <listeners>
+        <listener class-name="org.example.listeners.TestExecutionListener"/>
+    </listeners>
+
+    <test name="Send OTP">
+        <classes>
+            <class name="org.example.SendOtpTest"/>
+            <class name="org.example.VerifyOtpTest"/>
+        </classes>
+    </test>
+</suite>
